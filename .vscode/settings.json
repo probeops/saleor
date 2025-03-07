@@ -1,17 +1,26 @@
 {
-    "python.testing.unittestEnabled": false,
-    "python.testing.pytestEnabled": true,
-    "python.languageServer": "Pylance",
-    "python.analysis.typeCheckingMode": "basic",
-    "cSpell.words": [
-        "dataloaders",
-        "preorder",
-        "preorders",
-        "undiscounted"
-    ],
-    "[python]": {
-        "editor.defaultFormatter": "charliermarsh.ruff",
-        "editor.formatOnSave": true,
-        "editor.formatOnType": true
-    }
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "python.languageServer": "Pylance",
+  "python.analysis.typeCheckingMode": "basic",
+  "cSpell.words": [
+    "dataloaders",
+    "preorder",
+    "preorders",
+    "undiscounted"
+  ],
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true
+  },
+  "task.allowAutomaticTasks": true,
+  "debug.openDebug": "neverOpen",
+  "terminal.integrated.inheritEnv": false,
+  "tasks": {
+    "label": "lint on open",
+    "type": "shell",
+    "command": "npm run lint",
+    "runOn": "folderOpen"
+  }
 }

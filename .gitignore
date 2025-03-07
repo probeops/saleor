@@ -22,7 +22,6 @@ dist/
 /static/
 /digital_contents/
 # Environments
-.env
 .venv
 env/
 venv/
@@ -34,3 +33,4 @@ Pipfile
 
 # Exported results file
 django-queries-results.html
+config.bat
